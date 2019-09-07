@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="engine1/css/allcss.css">
+	<link rel="stylesheet" href="engine1/css/button.css">
+	<link rel="stylesheet" href="engine1/css/responsive.css">
+	<link rel="stylesheet" href="engine1/css/login&registrationform.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="engine1/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="engine1/css/fakeLoader.css" />
+	<script type="text/javascript" src="engine1/js/jquery.js"></script>
+  	<title>Mazar</title>
+
+
+</head>
+<div id="fakeloader"></div>   <!--fake loder-->
+<body>
+    	<!-- customize full nav bar -->
+
+                    <div class="double-nav" style="position: relative; z-index: 999;">
+                    <!-- /* md to lg screen nav style */ -->
+                    <div class="d-none d-lg-block d-xl-block main-nav m-0 rounded" style="background: rgba(0, 0, 0, 0.5);">
+                    <div class="d-flex justify-content-around ">
+
+                    	  	<div class="p-2 main-nav-logo">
+                    				<div class="d-flex align-items-center">
+                    					 <div class="p-3 text-white font-weight-bold"><h1>THE TRUTH</h1></div>
+															 <!-- <img class="img-fluid" src="data1/images/logo.png" alt="pictur" width="250px;" height="200px;"> -->
+	                    			</div>
+	                       </div>
+
+												 <div class="p-2 mr-4 main-nav-left ">
+                    				 <div class="d-flex align-items-center pt-4 fill">
+															  <div class="hover_border"><a class="p-3" href="index.html"><i class="fas fa-home"></i> HOME</a></div>
+                    					  <div class="hover_border"><a class="p-3" href="about.html"><i class="fas fa-user-alt"></i> ABOUT US</a></div>
+																<div class="hover_border"><a class="p-3" href="book.html"><i class="fas fa-quran"></i> BOOK</a></div>
+																<div class="hover_border"><a class="p-3" href="article.html"><i class="fas fa-newspaper"></i> ARTICLE</a></div>
+	                    					<div class="hover_border"><a class="p-3" href="http://sufimaizbhandari.org/index.html"><i class="fas fa-link"></i> SUFI LINK</a></div>
+	                    					<div class="hover_border"><a class="p-3" href="contact.html"><i class="fas fa-phone-volume"></i> CONTACT US</a></div>
+																<div class="hover_border"><a class="p-3" href="faq.html">FAQ</a></div>
+				                     </div>
+                    		</div>
+                    </div>
+
+
+                    </div>
+
+
+           <!-- /* tablet and mobile nab style */ -->
+					                 	<div class="mobile-nav">
+												  <div id="myNav" class="overlay">
+													<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+													<div class="overlay-content">
+													<a href="index.html">HOME</a>
+													<a href="about.html">ABOUT US</a>
+													<a href="book.html">BOOK</a>
+													<a href="article.html">ARTICLE</a>
+													<a href="http://sufimaizbhandari.org/index.html">SUFI LINK</a>
+													<a href="contact">CONTACT US</a>
+													<a href="faq.html">FAQ</a>
+													</div>
+													</div>
+													<div class=" p-3" style="background: rgba(0, 0, 0, 0.5);">
+													<h1 class="d-inline text-white font-weight-bold">THE TRUTH</h1>
+														<span style="font-size:30px;cursor:pointer; float:right; color:white;" onclick="openNav()">&#9776;</span>
+													</div>
+													</div>
+
+                         </div>
+<!-- End customize full nav bar -->
+
+  <!-- side nav bar -->
+<div id="mySidenav" class="sidenav">
+  <a href="#" class="login" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Log in <i class="fas fa-sign-in-alt"></i></a>
+  <a href="#" class="Registration" onclick="document.getElementById('Registration').style.display='block'" style="width:auto;">Registration <i class="fas fa-registered"></i></a>
+</div>
+
+<!--End side nav bar -->
+
+     <!--Login form -->
+					<div id="login" class="modal">
+						<div class="container">
+					<form class="modal-content animate" action="/action_page.php">
+					<div class="imgcontainer">
+						<span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+					</div>
+
+					<div class="container">
+						<h3>Log In</h3>
+						<label for="uname"><b>Email</b></label>
+						<input type="text" placeholder="Enter Username" name="uname" required>
+
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+
+						<button type="submit">Login</button>
+						<label>
+							<input type="checkbox" checked="checked" name="remember"> Remember me
+						</label>
+					</div>
+
+					<div class="container" style="background-color:#f1f1f1">
+						<button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+						<span class="psw">Forgot <a href="#">password?</a></span>
+					</div>
+					</form>
+					</div>
+					</div>
+
+		 <!--Login form End-->
+
+		  <!--Registration form start-->
+			<div id="Registration" class="modal">
+				<div class="container">
+			<form class="modal-content animate" action="/action_page.php">
+			<div class="imgcontainer">
+				<span onclick="document.getElementById('Registration').style.display='none'" class="close" title="Close Modal">&times;</span>
+			</div>
+
+			<div class="container">
+				<h3>Registration</h3>
+				<label for="uname"><b>Email</b></label>
+				<input type="text" placeholder="Enter Username" name="uname" required>
+
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+
+				<label for="psw"><b>Repeat Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+
+				<button type="submit">Registration</button>
+			</div>
+
+			<div class="container" style="background-color:#f1f1f1">
+				<button type="button" onclick="document.getElementById('Registration').style.display='none'" class="cancelbtn">Cancel</button>
+			</div>
+			</form>
+			</div>
+			</div>
+
+			 <!--Registration form End-->
+
+
+
+
+    <!-- image slider -->
+		<div id="wowslider-container1" style="top:-105px;">
+		<div class="ws_images" style="top:-105px;"><ul>
+			<li><img src="data1/images/slide1.jpg" alt="slide1" title="" id="wows1_0"/></li>
+			<li><img src="data1/images/slide2.jpg" alt="slide2" title="" id="wows1_1"/></li>
+			<li><img src="data1/images/slide3.jpg" alt="slide3" title="" id="wows1_2"/></a></li>
+			<li><img src="data1/images/slider4.jpg" alt="slider4" title="" id="wows1_3"/></li>
+		</ul></div>
+		<div class="ws_bullets"><div>
+			<a href="#" title="slide1"><span><img src="data1/tooltips/slide1.jpg" alt="slide1"/>1</span></a>
+			<a href="#" title="slide2"><span><img src="data1/tooltips/slide2.jpg" alt="slide2"/>2</span></a>
+			<a href="#" title="slide3"><span><img src="data1/tooltips/slide3.jpg" alt="slide3"/>3</span></a>
+			<a href="#" title="slider4"><span><img src="data1/tooltips/slider4.jpg" alt="slider4"/>4</span></a>
+		</div>
+	</div>
+		</div>
+    	<!-- End image slider -->
+
+
+
+    <!-- About us -->
+          <div class=" about-us">
+						     <h1 class="text-center about-us-title" ><span class="headding-first-leater">O</span>ur History</h1>
+          	   <div class="row">
+          	   	  <div class="col-sm-12 col-md-4 col-lg-4 p-3" data-aos="flip-left" data-aos-duration="800" data-aos-delay="50">
+          	   	  	<img calss="img-fluid " src="data1/images/abt-img2.jpg" alt="" width="100%" height="auto" >
+          	   	  </div>
+          	   	  <div class="col-sm-12 col-md-8 col-lg-8 p-3">
+										     <div class="row">
+										       	<div class="col-lg-12 col-md-12 col-sm-12">
+									            	<h3 class="font-weight-bold" data-aos="fade-up" data-aos-easing="ease-in-out-quart" data-aos-duration="700" data-aos-delay="10"><span class="headding-first-leater">A</span>bout Islamic Center</h3>
+									             	<p data-aos="fade-up"   data-aos-duration="700" data-aos-easing="ease-in-sine"data-aos-delay="100"><strong>The Glorious Qur-an says, “Truth has arrived, and falsehood perished, For falsehood (by its nature) bound to perish”.</strong> (Sura Bani Israil-81)</p>
+                                <p data-aos="fade-up"   data-aos-duration="700" data-aos-easing="ease-in-sine"data-aos-delay="200"><first>What</first> is Truth? The Bengali word “Sathya, is derived from the word Sat” which means everlasting, permanent, established, true, proper, correct, accurate and indestructible.  In Arabic Al-Haq stands for the word Truth which is one of the greatest names of <strong>Allah</strong>. We worship The Truth. The opposite of the Truth is falsehood, untrue, inaccurate improper, incorrect, baseless, imaginary, destructible, deceptive and satanic.
+																<p class="text-truncate" data-aos="fade-up"  data-aos-easing="ease-in-sine"data-aos-duration="700" data-aos-delay="300"> The struggle between the Truth and the falsehood or the fight between Religion and irreligion is eternal and everlasting.</p>
+                             </div>
+										          <div class="col-lg-12 col-md-12 col-sm-12 align p-0">
+										 	           <div class="col-md-4 col-sm-4 col-xs-4 float-right about-more-btn p-0"><a href="about.html" class="btn btn-sm animated-button thar-three">Read More</a></div>
+										         </div>
+                         </div>
+          	   	  </div>
+          	   </div>
+          </div>
+  <!--End About us -->
+
+
+	<!-- comming event -->
+ <div class="row mx-0 comming-event">
+	 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0 event">
+	             <div class="col-md-7 col-lg-7 float-right time-banner ">
+                     <h2 class="text-center"><span class="headding-first-leater">U</span>pcoming Event</h2>
+										 <p class="text-center"><strong>Ramadan Prep Workshop, <a class="event-more-details-btn" href="">More Details</a></strong></p>
+										 <div class="time-label text-center">
+										 	     <span id="time-label-day"></span> <p class="text-monospace d-inline">Days</p >
+													 <span id="time-label-hour"></span>  <p class="text-monospace d-inline">Hours</p >
+													 <span id="time-label-minute"></span> <p class="text-monospace d-inline">Minutes</p >
+													 <span id="time-label-second"></span> <p class="text-monospace d-inline">Seconds</p >
+										 </div>
+											<p class="text-center my-4"><a href="all-event.html" class="all-event-btn">All Event  <i class="fas fa-arrow-right fa-x align-middle card-icon"></i></a></p>
+	              </div>
+
+	 </div>
+ </div>
+
+		<!-- Articles -->
+			          <div class="container articles">
+									     <h1 class="text-center articles-title"><span class="headding-first-leater">A</span>rticles</h1>
+			          	   <div class="row">
+												 <!-- this is card Articles-->
+											 <div class="col-md-4 mx-auto my-4" >
+																<div class="card" data-aos="fade-right" data-aos-offset="500" data-aos-delay="20" data-aos-duration="800">
+																	<div style="overflow:hidden;">
+																<img class="card-img-top" src="data1/images/slide3.jpg" alt="" width="100%" height="300px">
+																</div>
+																<div class="card-body">
+                                  <h4 class="card-title">is there any problem?</h4>
+																	<ul class="card-icon list-unstyled">
+                                      <li class="float-left mr-3"><i class="far fa-calendar-alt"></i> Nov 17, 2018</li>
+                                      <li class="float-left mx-3"><i class="far fa-user"></i> By William Blake</a></li>
+                                  </ul>
+																	<br>
+																	<br>
+                                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                  <p class="card-text">
+                                 <small class="view-Details"><strong><a href="article-view-deatils.html">View Details</a></strong></small>
+                                 </p>
+                               </div>
+															 </div>
+											 </div>
+
+                       <!-- this is card Articles-->
+											 <div class="col-md-4 mx-auto my-4" >
+															 <div class="card" data-aos="fade-right" data-aos-offset="500" data-aos-delay="100" data-aos-duration="800">
+																 	<div style="overflow:hidden;">
+															 <img class="card-img-top" src="data1/images/slide3.jpg" alt="" width="100%" height="300px">
+															  </div>
+															 <div class="card-body">
+																	<h4 class="card-title">is there any problem?</h4>
+																 <ul class="card-icon list-unstyled">
+																						<li class="float-left mr-3"><i class="far fa-calendar-alt theme-clr"></i> Nov 17, 2018</li>
+																						<li class="float-left mx-3"><i class="far fa-user theme-clr"></i> By William Blake</a></li>
+																	</ul>
+																 <br>
+																 <br>
+																	<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+																	<p class="card-text">
+																 <small class="view-Details"><strong><a href="article-view-deatils.html">View Details</a></strong></small>
+																 </p>
+															 </div>
+															</div>
+											 </div>
+
+												 <!-- this is card if Articles -->
+											 <div class="col-md-4 mx-auto my-4" >
+															 <div class="card" data-aos="fade-right" data-aos-offset="500" data-aos-delay="150" data-aos-duration="800">
+															 <div style="overflow:hidden;">
+															 <img class="card-img-top" src="data1/images/slide3.jpg" alt="" width="100%" height="300px">
+															  </div>
+															 <div class="card-body">
+																	<h4 class="card-title">is there any problem?</h4>
+																 <ul class="card-icon list-unstyled">
+																						<li class="float-left mr-3"><i class="far fa-calendar-alt theme-clr"></i> Nov 17, 2018</li>
+																						<li class="float-left mx-3"><i class="far fa-user theme-clr"></i> By William Blake</a></li>
+																	</ul>
+																 <br>
+																 <br>
+																	<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+																	<p class="card-text">
+																 <small class="view-Details"><strong><a href="article-view-deatils.html">View Details</a></strong></small>
+																 </p>
+															 </div>
+															</div>
+											    </div>
+
+			          	  </div>	<!-- End row -->
+
+										<!-- all article button -->
+									 <div class="d-flex align-items-center justify-content-center">
+									 <div class="col-md-3  float-right all-article-btn px-0"><a href="article.html" class="btn btn-sm animated-button thar-three">All  Article </a></div>
+							     </div>
+			          </div>
+	<!-- End Articles -->
+
+
+		<!-- Book -->
+											<div class="container book">
+														 <h2 class="text-center book-title"><span class="headding-first-leater">B</span>ook</h2>
+													 <div class="row">
+														       <!-- first card of Book -->
+																	 <div class="col-sm-6 col-md-3 col-lg-3 mx-auto my-4" >
+																			 <div class="card p-2" data-aos="fade-right" data-aos-offset="500" data-aos-delay="50" data-aos-duration="800">
+																			 <div class="cards">
+																					<div class="front">
+																						 <img src="data1/images/1.jpg" class="card-img-top"  alt="..." height="300px">
+																					</div>
+																					<div class="back">
+																						 <img src="data1/images/2.jpg" class="card-img-top"  alt="..." height="300px">
+																					</div>
+																				</div>
+																				<div class="card-body text-center p-1">
+																					<h5 class="card-title m-0">On Secularism</h5>
+																				</div>
+																				 <small class="text-monospace text-center card-icon"><i class="fas fa-user-edit"></i> Farooque Chowdhury</small>
+																				</div>
+																				<div class="book-btn py-2"> <a href="#" class="btn btn-sm animated-button victoria-three">Download</a> </div>
+																	 </div>
+
+                                    <!-- sccend card of Book -->
+																		<div class="col-sm-6 col-md-3 col-lg-3 mx-auto my-4" >
+																				<div class="card p-2" data-aos="fade-right" data-aos-offset="500" data-aos-delay="100" data-aos-duration="800">
+																				<div class="cards">
+																					 <div class="front">
+																							<img src="data1/images/3.jpg" class="card-img-top"  alt="..." height="300px">
+																					 </div>
+																					 <div class="back">
+																							<img src="data1/images/4.jpg" class="card-img-top"  alt="..." height="300px">
+																					 </div>
+																				 </div>
+																				 <div class="card-body text-center p-1">
+																					 <h5 class="card-title m-0">On Secularism</h5>
+																				 </div>
+																					<small class="text-monospace text-center card-icon"><i class="fas fa-user-edit"></i> Farooque Chowdhury</small>
+																				 </div>
+																				 <div class="book-btn py-2"> <a href="#" class="btn btn-sm animated-button victoria-three">Download</a> </div>
+																		</div>
+                                    <!-- therd card of Book -->
+																		<div class="col-sm-6 col-md-3 col-lg-3 mx-auto my-4">
+																				<div class="card p-2" data-aos="fade-right" data-aos-offset="500" data-aos-delay="150" data-aos-duration="800">
+																				<div class="cards">
+																					 <div class="front">
+																							<img src="data1/images/5.jpg" class="card-img-top"  alt="..." height="300px">
+																					 </div>
+																					 <div class="back">
+																							<img src="data1/images/6.jpg" class="card-img-top"  alt="..." height="300px">
+																					 </div>
+																				 </div>
+																				 <div class="card-body text-center p-1">
+																					 <h5 class="card-title m-0">On Secularism</h5>
+																				 </div>
+																					<small class="text-monospace text-center card-icon"><i class="fas fa-user-edit"></i> Farooque Chowdhury</small>
+																				 </div>
+																				 <div class="book-btn py-2"> <a href="#" class="btn btn-sm animated-button victoria-three">Download</a> </div>
+																		</div>
+
+																		<!-- forth card of Book -->
+																		<div class="col-sm-6 col-md-3 col-lg-3 mx-auto my-4">
+																				<div class="card p-2" data-aos="fade-right" data-aos-offset="500" data-aos-delay="200" data-aos-duration="800">
+																				<div class="cards">
+																					 <div class="front">
+																							<img src="data1/images/3.jpg" class="card-img-top"  alt="..." height="300px">
+																					 </div>
+																					 <div class="back">
+																							<img src="data1/images/1.jpg" class="card-img-top"  alt="..." height="300px">
+																					 </div>
+																				 </div>
+																				 <div class="card-body text-center p-1">
+																					 <h5 class="card-title m-0">On Secularism</h5>
+																				 </div>
+																					<small class="text-monospace text-center card-icon"><i class="fas fa-user-edit"></i> Farooque Chowdhury</small>
+																				 </div>
+																				 <div class="book-btn py-2"> <a href="#" class="btn btn-sm animated-button victoria-three">Download</a> </div>
+																		</div>
+
+													 </div>	<!--End row -->
+
+													 <!-- Browse More Book button -->
+															<div class="d-flex align-items-center justify-content-center">
+															 <div class="col-md-3  browse-more-book-btn"><a href="book.html" class="btn btn-sm animated-button thar-three">All Book</a></div>
+													   </div>
+											</div>
+		<!--End Book -->
+
+
+
+<!--footer  -->
+		<div class="footer">
+          <div class="footer-container">
+						<div class="footer-card">
+          	<div class="row">
+             <!--google map -->
+							<div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 px-3 my-3 fotter-img">
+								   <img class="mb-3" src="data1/images/map.jpg" alt="" width="100%" height="300px">
+                  <p><i class="fas fa-map-marker-alt "></i> Find us on Map</p>
+							</div>
+
+              <!--latest blog -->
+							<div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-3">
+								<h4 class="font-weight-bold">Latest Blogs</h4>
+										<div class="row">
+												<div class="media">
+													<img class="m-2 rounded" src="data1/images/2.jpg" width="90px" height="80px">
+					                 <div class="media-body m-2">
+														 <p class="latest-blogs-title">I am Joy Dey</p>
+														 <p class="latest-blogs-date"><i class="far fa-calendar-alt "></i> Nov 17, 2018</p>
+													 </div>
+		                      </div>
+										</div>
+										<div class="row">
+												<div class="media">
+													<img class="m-2 rounded" src="data1/images/1.jpg" width="90px" height="80px">
+					                 <div class="media-body m-2">
+														 <p class="latest-blogs-title">I am Joy Dey</p>
+														 <p class="latest-blogs-date"><i class="far fa-calendar-alt "></i> Nov 17, 2018</p>
+													 </div>
+		                      </div>
+										</div>
+						</div>
+
+            <!--contact info -->
+						<div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-3">
+								<h4 class="font-weight-bold">Contact Info</h4>
+								<ul class="list-unstyled p-2">
+										<li><i class="far fa-envelope "></i> bismillah@mail.com</a></li>
+										 <li><i class="fas fa-phone "></i><span> 1800-123-456-7</span></li>
+										 <li><i class="fas fa-map-marker-alt "></i> 19-J David Road , America</li>
+										<li><i class="fas fa-fax "></i> 1800-123-456-7</li>
+								</ul>
+						</div>
+           <!--Quick Contact -->
+						<div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-3">
+							<h4 class="font-weight-bold">Quick Contact</h4>
+							<form action="#" method="post" id="contact_form">
+                  <div class="name">
+                  	<label for="name"></label>
+                  	<input type="text" placeholder="My name is" name="name" id="name_input" required>
+                  </div>
+                  <div class="email">
+                  	<label for="email"></label>
+                  	<input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                  </div>
+
+                  <div class="message">
+                  	<label for="message"></label>
+                  	<textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                  </div>
+                  <div class="submit">
+                  	<input type="submit" value="Send Message" id="form_button" />
+                  </div>
+                  </form><!-- // End form -->
+						</div>
+
+          	 	</div>
+							<strong class="d-block text-center">THETRUTHBD © 2019 / ALL RIGHTS RESERVED</strong>
+          	</div>
+          </div>
+		</div>
+
+
+
+
+
+
+</body>
+<script type="text/javascript" src="engine1/js/wowslider.js"></script>
+<script type="text/javascript" src="engine1/js/script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4XGd9qpQIEkbfL6QpR6qk2jQ9S9_5Uww"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="text/javascript" src="engine1/js/fake.js"></script>
+<script type="text/javascript" src="engine1/js/alljs.js"></script>
+
+<script>
+AOS.init();
+</script>
+
+<script type="text/javascript">
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+// Get todays date and time
+var now = new Date().getTime();
+
+// Find the distance between now and the count down date
+var distance = countDownDate - now;
+
+// Time calculations for days, hours, minutes and seconds
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+// Output the result in an element with id="demo"
+
+document.getElementById("time-label-day").innerHTML = days;
+document.getElementById("time-label-hour").innerHTML = hours;
+document.getElementById("time-label-minute").innerHTML = minutes;
+document.getElementById("time-label-second").innerHTML = seconds;
+
+// If the count down is over, write some text
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("time-label-day").innerHTML = "EXPIRED";
+document.getElementById("time-label-hour").innerHTML = "EXPIRED";
+document.getElementById("time-label-minute").innerHTML = "EXPIRED";
+document.getElementById("time-label-second").innerHTML = "EXPIRED";
+}
+}, 1000);
+</script>
+</html>

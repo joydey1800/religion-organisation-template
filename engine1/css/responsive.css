@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+
+
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+  .browse-more-book-btn{
+  margin-right: 4%;
+  }
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+  .fill .hover_border a {
+  letter-spacing: 1px;
+  }
+
+  .articles .card-title{
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+
+  .footer-container {
+   margin: 0 2rem 0 2rem;
+   }
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+  .fill .hover_border a {
+  letter-spacing: 1px;
+  padding: 0.5rem !important;
+  }
+
+  .time-banner {
+    height: 85% !important;
+   }
+
+   .footer-container {
+    margin: 0 1rem 0 1rem;
+    }
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991.5px)
+{
+  .login {
+    top: 330px;
+    left: -69px;
+  }
+
+  .Registration {
+    top: 391px;
+    left: -121px;
+  }
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+     .slider-text1{
+      margin-top: 14% !important;
+     }
+     .about-us{
+       margin: 0rem 3rem 0 3rem;
+     }
+
+
+     .comming-event {
+    height: 459px;
+   }
+
+   .time-banner h2 {
+    margin: 1rem 0 2rem 0;
+    }
+    .time-label span {
+    padding: 1rem 0 0rem 0.5rem;
+   }
+
+
+
+
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+  .login {
+    top: 315px;
+    left: -69px;
+  }
+
+  .Registration {
+    top: 377px;
+    left: -121px;
+  }
+}
+
+/************
+11. 620
+************/
+
+@media only screen and (max-width: 620px)
+{
+  .login {
+    top: 301px;
+    left: -69px;
+  }
+
+  .Registration {
+    top: 364px;
+    left: -121px;
+  }
+}
+
+/************
+12. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+
+
+  .login {
+    top: 265px;
+    left: -69px;
+  }
+
+  .Registration {
+    top: 326px;
+    left: -121px;
+  }
+  .about-us {
+    margin: 0rem 3rem 0 3rem !important;
+   }
+
+   .about-us-title {
+    margin: 0px 0 2rem 0 !important;
+   }
+
+   .time-banner {
+    height: 100% !important;
+    }
+
+    .articles-title {
+      margin: 0px 0 2rem 0;
+    }
+
+    .articles .card .card-img-top{
+      height: 200px !important;
+    }
+
+
+
+
+    .book-title {
+    margin: 0 0 2rem 0;
+   }
+
+   .browse-more-book-btn{
+   margin-right: 0 !important;
+   }
+
+
+
+
+/************
+13. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+  .login {
+    top: 218px;
+    left: -69px;
+  }
+
+  .Registration {
+    top: 280px;
+    left: -121px;
+  }
+
+  .about-page-paragraph {
+    margin: 0 !important;
+  }
+
+  .footer .footer-container {
+  margin: 0 2rem 0 2rem;
+    }
+
+}
+
+/************
+14. 488px
+************/
+
+@media only screen and (max-width: 488px)
+{
+    .about-page-title .headding-first-leater {
+     font-size: 4rem !important;
+     }
+   .about-page-title .headding-first-leater first{
+        padding-left: 13px;
+     }
+
+    .all-book-article .headding-first-leater {
+     font-size: 4rem !important;
+    }
+     .all-book-article .headding-first-leater first{
+        padding-left: 13px;
+     }
+     .contact-us-page {
+       margin-left: 0rem !important;
+       margin-right: 0rem !important;
+       margin-bottom: 0rem !important;
+     }
+
+    .contact-us-page form{
+       margin: 0 !important;
+       padding: 0 !important;
+     }
+
+}
+
+/************
+15. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+  .time-label span {
+  padding: 0rem 0 0rem 0.1rem;
+ }
+
+ .login {
+   top: 155px;
+   left: -69px;
+ }
+
+ .Registration {
+   top: 215px;
+   left: -121px;
+ }
+
+}
+
+/************
+16. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+
+  .login {
+    top: 121px;
+    left: -69px;
+  }
+
+  .Registration {
+    top: 182px;
+    left: -121px;
+  }
+  .about-us {
+    margin: 0rem 1rem 0 1rem !important;
+     }
+
+     .time-banner h2 {
+      font-size: 1.7rem;
+     }
+     .time-label span{
+       font-size: 1.5rem;
+     }
+  .footer .footer-container {
+  margin: 0 1rem 0 1rem;
+    }
+
+    .footer .footer-card {
+    padding: 1rem 1rem 5rem 1rem;
+    }
+
+
+}

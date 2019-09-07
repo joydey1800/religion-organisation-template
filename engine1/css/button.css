@@ -1,0 +1,402 @@
+
+/**********************about more ***********************/
+.about-more-btn a.animated-button:link,   .about-more-btn a.animated-button:visited {
+position: relative;
+display: block;
+margin: 30px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+border-radius: 0;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+.about-more-btn a.animated-button:link:after,  .about-more-btn a.animated-button:visited:after {
+content: "";
+position: absolute;
+height: 0%;
+left: 50%;
+top: 50%;
+width: 150%;
+z-index: -1;
+-webkit-transition: all 0.75s ease 0s;
+-moz-transition: all 0.75s ease 0s;
+-o-transition: all 0.75s ease 0s;
+transition: all 0.75s ease 0s;
+}
+.about-more-btn a.animated-button:link:hover,  .about-more-btn a.animated-button:visited:hover {
+color: #FFF;
+text-shadow: none;
+}
+.about-more-btn a.animated-button:link:hover:after,  .about-more-btn a.animated-button:visited:hover:after {
+height: 450%;
+}
+.about-more-btn a.animated-button:link,  .about-more-btn a.animated-button:visited {
+position: relative;
+display: block;
+margin: 0px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+border-radius: 0;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.about-more-btn a.animated-button.thar-three {
+color: black;
+cursor: pointer;
+display: block;
+position: relative;
+border: 2px solid #b57c00;
+border-radius: 25px;
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+.about-more-btn a.animated-button.thar-three:hover {
+color: #fff !important;
+background-color: transparent;
+text-shadow: nthree;
+}
+.about-more-btn a.animated-button.thar-three:hover:before {
+left: 0%;
+right: auto;
+width: 100%;
+}
+.about-more-btn a.animated-button.thar-three:before {
+display: block;
+position: absolute;
+top: 0px;
+right: 0px;
+height: 100%;
+width: 0px;
+z-index: -1;
+content: '';
+color: #000 !important;
+background: rgba(243,226,199,1);
+background: -moz-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,226,199,1)), color-stop(50%, rgba(201,134,32,1)), color-stop(51%, rgba(189,150,90,1)), color-stop(100%, rgba(233,212,179,1)));
+background: -webkit-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -o-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -ms-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: linear-gradient(to bottom, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=0 );
+
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+
+/**********************All Articles button ***********************/
+
+.all-article-btn a.animated-button:link,   .all-article-btn a.animated-button:visited {
+position: relative;
+display: block;
+margin: 30px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+border-radius: 0;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+.all-article-btn a.animated-button:link:after,  .all-article-btn a.animated-button:visited:after {
+content: "";
+position: absolute;
+height: 0%;
+left: 50%;
+top: 50%;
+width: 150%;
+z-index: -1;
+-webkit-transition: all 0.75s ease 0s;
+-moz-transition: all 0.75s ease 0s;
+-o-transition: all 0.75s ease 0s;
+transition: all 0.75s ease 0s;
+}
+.all-article-btn a.animated-button:link:hover,  .all-article-btn a.animated-button:visited:hover {
+color: #FFF;
+text-shadow: none;
+}
+.all-article-btn a.animated-button:link:hover:after,  .all-article-btn a.animated-button:visited:hover:after {
+height: 450%;
+}
+.all-article-btn a.animated-button:link,  .all-article-btn a.animated-button:visited {
+position: relative;
+display: block;
+margin: 0px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+border-radius: 0;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.all-article-btn a.animated-button.thar-three{
+color: black;
+cursor: pointer;
+display: block;
+position: relative;
+border: 2px solid #b57c00;
+border-radius: 10px;
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+
+.all-article-btn a.animated-button.thar-three:hover{
+color: #fff !important;
+background-color: transparent;
+text-shadow: nthree;
+}
+.all-article-btn a.animated-button.thar-three:hover:before {
+left: 0%;
+right: auto;
+width: 100%;
+}
+.all-article-btn a.animated-button.thar-three:before {
+display: block;
+position: absolute;
+top: 0px;
+right: 0px;
+height: 100%;
+width: 0px;
+z-index: -1;
+content: '';
+color: #000 !important;
+background: rgba(243,226,199,1);
+background: -moz-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,226,199,1)), color-stop(50%, rgba(201,134,32,1)), color-stop(51%, rgba(189,150,90,1)), color-stop(100%, rgba(233,212,179,1)));
+background: -webkit-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -o-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -ms-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: linear-gradient(to bottom, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=0 );
+
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+
+
+/**********************Book download button ***********************/
+.book-btn a.animated-button:link, .book-btn a.animated-button:visited {
+position: relative;
+display: block;
+margin: 30px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+border-radius: 0;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+.book-btn a.animated-button:link:after, .book-btn a.animated-button:visited:after {
+content: "";
+position: absolute;
+height: 0%;
+left: 50%;
+top: 50%;
+width: 150%;
+z-index: -1;
+-webkit-transition: all 0.75s ease 0s;
+-moz-transition: all 0.75s ease 0s;
+-o-transition: all 0.75s ease 0s;
+transition: all 0.75s ease 0s;
+}
+.book-btn a.animated-button:link:hover, .book-btn a.animated-button:visited:hover {
+color: #FFF;
+text-shadow: none;
+}
+.book-btn a.animated-button:link:hover:after, .book-btn a.animated-button:visited:hover:after {
+height: 450%;
+}
+.book-btn a.animated-button:link, .book-btn a.animated-button:visited {
+position: relative;
+display: block;
+margin: 0px auto 0;
+padding: 14px 15px;
+color: black;
+font-size:14px;
+border-radius: 10px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.book-btn a.animated-button.victoria-three {
+	border: 2px solid  #b57c00;
+}
+.book-btn a.animated-button.victoria-three:after {
+	background: rgba(243,226,199,1);
+background: -moz-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(143,100,36,1) 51%, rgba(189,150,90,1) 65%, rgba(233,212,179,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,226,199,1)), color-stop(51%, rgba(143,100,36,1)), color-stop(65%, rgba(189,150,90,1)), color-stop(100%, rgba(233,212,179,1)));
+background: -webkit-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(143,100,36,1) 51%, rgba(189,150,90,1) 65%, rgba(233,212,179,1) 100%);
+background: -o-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(143,100,36,1) 51%, rgba(189,150,90,1) 65%, rgba(233,212,179,1) 100%);
+background: -ms-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(143,100,36,1) 51%, rgba(189,150,90,1) 65%, rgba(233,212,179,1) 100%);
+background: linear-gradient(to bottom, rgba(243,226,199,1) 0%, rgba(143,100,36,1) 51%, rgba(189,150,90,1) 65%, rgba(233,212,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=0 );
+	opacity: .5;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+.book-btn a.animated-button.victoria-three:hover:after {
+	height: 140%;
+	opacity: 1;
+}
+
+/**********************All Book button ***********************/
+.browse-more-book-btn a.animated-button:link,  .browse-more-book-btn a.animated-button:visited {
+position: relative;
+display: block;
+margin: 30px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+border-radius: 0;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+.browse-more-book-btn a.animated-button:link:after,  .browse-more-book-btn a.animated-button:visited:after {
+content: "";
+position: absolute;
+height: 0%;
+left: 50%;
+top: 50%;
+width: 150%;
+z-index: -1;
+-webkit-transition: all 0.75s ease 0s;
+-moz-transition: all 0.75s ease 0s;
+-o-transition: all 0.75s ease 0s;
+transition: all 0.75s ease 0s;
+}
+.browse-more-book-btn a.animated-button:link:hover,  .browse-more-book-btn a.animated-button:visited:hover {
+color: #FFF;
+text-shadow: none;
+}
+.browse-more-book-btn a.animated-button:link:hover:after,  .browse-more-book-btn a.animated-button:visited:hover:after {
+height: 450%;
+}
+.browse-more-book-btn a.animated-button:link,  .browse-more-book-btn a.animated-button:visited {
+position: relative;
+display: block;
+margin: 0px auto 0;
+padding: 14px 15px;
+color: #fff;
+font-size:14px;
+border-radius: 0;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+letter-spacing: .08em;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.browse-more-book-btn a.animated-button.thar-three {
+color: black;
+cursor: pointer;
+display: block;
+position: relative;
+border: 2px solid #b57c00;
+border-radius: 10px;
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+.browse-more-book-btn a.animated-button.thar-three:hover {
+color: #fff !important;
+background-color: transparent;
+text-shadow: nthree;
+}
+.browse-more-book-btn a.animated-button.thar-three:hover:before {
+left: 0%;
+right: auto;
+width: 100%;
+}
+.browse-more-book-btn a.animated-button.thar-three:before {
+display: block;
+position: absolute;
+top: 0px;
+right: 0px;
+height: 100%;
+width: 0px;
+z-index: -1;
+content: '';
+color: #000 !important;
+background: rgba(243,226,199,1);
+background: -moz-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,226,199,1)), color-stop(50%, rgba(201,134,32,1)), color-stop(51%, rgba(189,150,90,1)), color-stop(100%, rgba(233,212,179,1)));
+background: -webkit-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -o-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: -ms-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+background: linear-gradient(to bottom, rgba(243,226,199,1) 0%, rgba(201,134,32,1) 50%, rgba(189,150,90,1) 51%, rgba(233,212,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=0 );
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
